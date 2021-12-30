@@ -1,11 +1,11 @@
--  Go tags usage
+# Go tags usage
 
--  Overview
+##  Overview
 In Go, a `build tag` is an identifier added to code that determines when the file should be included in a package during the build process. This allows to build different versions of Go application from the same source code.
 
 In this example, `build tags` are used to generate different executable binaries that offer `free`, `pro`, and `enterprise` feature sets of the same application.
 
-- -  Usage:
+##  Usage:
 
 ```
 ubuntu@ubuntu:~/go/src/github.com/gocode75/gotags$ go build
@@ -29,7 +29,6 @@ ubuntu@ubuntu:~/go/src/github.com/gocode75/gotags$ ./gotags
 ubuntu@ubuntu:~/go/src/github.com/gocode75/gotags$ 
 ```
 
-
-- -  Official documentation
+## Official documentation
 
 * [Build Constraints](https://pkg.go.dev/go/build- hdr-Build_Constraints)
